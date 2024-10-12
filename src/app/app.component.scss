@@ -1,0 +1,41 @@
+/* Global styles for your Ionic application */
+
+ion-app {
+    /* Full height for the app */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    /* Background color */
+    background-color: var(--ion-color-light); /* Light background */
+  }
+  
+  /* Style for ion-router-outlet */
+  ion-router-outlet {
+    /* Full width and height */
+    width: 100%;
+    flex: 1; /* Ensures it takes the available space */
+  }
+  
+  /* Optional: Style for the overall font and body */
+  body {
+    font-family: Arial, sans-serif; /* or any font you choose */
+    font-size: 16px; /* Base font size */
+    line-height: 1.5; /* Line height for readability */
+    color: var(--ion-color-dark); /* Dark text color for contrast */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Optional: Add a custom scrollbar for webkit browsers */
+  ::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--ion-color-medium); /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Round the edges */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--ion-color-light); /* Color of the scrollbar track */
+  }
